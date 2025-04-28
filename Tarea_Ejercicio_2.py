@@ -33,7 +33,7 @@ print(distribucion_calificaciones)
 plt.figure(figsize=(6, 6))
 distribucion_calificaciones.plot.pie(
     autopct='%1.1f%%',     # Muestra el porcentaje con 1 decimal
-    startangle=90,         # Empieza desde arriba hacia abajo
+    startangle=90,         # Empieza desde arriba
     labels=distribucion_calificaciones.index,  # Etiquetas de cada sección
     shadow=True            # Sombra para darle profundidad
 )

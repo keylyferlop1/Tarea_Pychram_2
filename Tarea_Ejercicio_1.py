@@ -13,6 +13,8 @@ import matplotlib.pyplot as plt
 # no solo texto. Usa pd.to_datetime(). Pista: Si encuentras errores, puedes añadir errors='coerce' dentro de pd.to_datetime()
 # para convertir fechas inválidas en NaT (Not a Time).
 # Verifica nuevamente los tipos de datos (df_movies.dtypes) para confirmar que in_theaters_date ahora es de tipo datetime64[ns].
+
+
 df_movies = pd.read_csv("Data/Rotten Tomatoes Movies.csv")
 print(df_movies.head())
 

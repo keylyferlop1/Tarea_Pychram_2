@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 #Ejercicio 1
 #1. Carga del Dataset
 #la fecha de estreno esté en el formato correcto (datetime).

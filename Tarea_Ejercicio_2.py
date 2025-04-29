@@ -18,15 +18,15 @@ print(df_movies.dtypes)
 
 # Número total de películas
 total_peliculas = len(df_movies)
-print(f"Número total de películas: {total_peliculas}")
+print(f"Número total de las películas: {total_peliculas}")
 
 # 8. Número total de películas
 total_peliculas = len(df_movies)
-print(f"\n8. Número total de películas en el dataset: {total_peliculas}")
+print(f"\n8. Número total de las películas en el dataset: {total_peliculas}")
 
 # 10. Distribución de películas por tomatometer_status
 distribucion_calificaciones = df_movies['tomatometer_status'].value_counts()
-print("\n10. Distribución de películas por tomatometer_status:")
+print("\n10. Distribución de las películas por tomatometer_status:")
 print(distribucion_calificaciones)
 
 # Crear gráfico circular
@@ -38,6 +38,6 @@ distribucion_calificaciones.plot.pie(
     shadow=True            # Sombra para darle profundidad
 )
 
-plt.title('Distribución de Calificaciones (Tomatometer Status)')
+plt.title('Distribución de las Calificaciones (Tomatometer Status)')
 plt.ylabel('')  # Oculta la etiqueta del eje Y
 plt.show()

@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
 df_movies = pd.read_csv("Data/Rotten Tomatoes Movies.csv")
 print(df_movies.head())
 
@@ -42,7 +41,7 @@ print(promedios_genero.head(10))
 top_10_generos = promedios_genero.head(10)
 
 plt.figure(figsize=(8, 8))
-plt.pie(top_10_generos, labels=top_10_generos.index, autopct='%1.1f%%', startangle=90, colors=plt.cm.tab10.colors)
+plt.pie(top_10_generos, labels=top_10_generos.index,  startangle=90, colors=plt.cm.tab10.colors)
 plt.title("Top 10 de los géneros con mejor calificación de audiencia")
 plt.axis('equal')  # Para que sea un círculo perfecto
 plt.show()
